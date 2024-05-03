@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: CDK Synth
-      uses: scottbrenner/aws-cdk-action@v1.6.0
+      uses: primeai-inc/aws-cdk-action@master
       with:
         args: synth
       env:
